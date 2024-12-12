@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Inscripcion</title>
+    <title>Formulario de Inscripción</title>
 </head>
 <body>
     <h1>Rellene el Formulario</h1>
@@ -11,38 +11,39 @@
     <nav>
         <ol>
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./discografia.html">Discografia</a></li>
+            <li><a href="./discografia.html">Discografía</a></li>
         </ol>
     </nav>
     <hr>
-    <p>En este apartado podra ud subscribirse a un Newsletter semanal enfocado en la musica de Dangerman, si se considera ud fan o amante de su estilo musical , no dude en subscribirse para recibir semanalmente una actualizacion conforme a musica relacionada dado que nuestra eminencia fallecio a causa del hierro enemigo</p>
-    
-    <form action="#" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required><br><br>
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="correo" placeholder="Introduce tu correo" required><br><br>
+    <p>En este apartado podrá usted suscribirse a un newsletter semanal enfocado en la música de Dangerman. Si se considera fan o amante de su estilo musical, no dude en suscribirse para recibir semanalmente actualizaciones relacionadas. Lamentamos que nuestra eminencia haya fallecido a causa del hierro enemigo.</p>
+
     <form action="./paginas/recepcion.php" method="get">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="introduce tu nombre"><br><br>
-        <label for="contra">Gusto Musical:</label>
-        <input type="text" id="contra" name="contra" placeholder="introduce tu gusto musical"><br><br>
-    <fieldset>
-        <legend>Escoge tu album de DangerMan favorito</legend>
-        <label for="idioma1">Gangsters</label>
-        <input type="radio" id="idioma1" name="idioma" value="castellano">
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required><br><br>
 
-        <label for="idioma2">Producto Del Ghetto</label>
-        <input type="radio" id="idioma2" name="idioma" value="catalan">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Introduce tu correo" required><br><br>
 
-        <label for="idioma3">Representando al Ghetto</label>
-        <input type="radio" id="idioma3" name="idioma" value="chino">
-    </fieldset>
-    <label for="comentarios">Añade tus comentarios:</label><br>
-    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+        <label for="gusto_musical">Gusto Musical:</label>
+        <input type="text" id="gusto_musical" name="gusto_musical" placeholder="Introduce tu gusto musical"><br><br>
 
-    <button type="submit">Enviar</button>
-    
+        <fieldset>
+            <legend>Escoge tu álbum de Dangerman favorito</legend>
+
+            <label for="album1">Gangsters</label>
+            <input type="radio" id="album1" name="album" value="gangsters">
+
+            <label for="album2">Producto Del Ghetto</label>
+            <input type="radio" id="album2" name="album" value="producto_del_ghetto">
+
+            <label for="album3">Representando al Ghetto</label>
+            <input type="radio" id="album3" name="album" value="representando_al_ghetto">
+        </fieldset>
+
+        <label for="comentarios">Añade tus comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
